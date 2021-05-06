@@ -1,0 +1,17 @@
+Package: AtomicWeights
+Title: Atomic Weights & Molar Mass
+Version: 0.0.0.1
+Authors@R: 
+    person(given = "Sergio A.",
+           family = "Gonzalez",
+           role = c("aut", "cre"),
+           email = "sergmonic@gmail.com",
+           comment = c(ORCID = "0000-0002-9461-5377"))
+Description: Provides a dataset with atomic weights of the chemical elements and its uncertainties. The Package includes a function to return the molar mass and its uncertainty for a given molecular formula.
+License: `use_gpl3_license()` 
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)
