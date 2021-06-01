@@ -50,7 +50,7 @@ getAtomicWeight<-function(element){
 #' @param atomsNumber A int vector with the number of atoms for each element in the molecular formula (by default =1)
 #' @return A data.frame with the molar mass (MM) and its standard uncertainty (u_MM)
 #' @examples
-#' getMolecularMass(c("C","H"),c(1,4))
+#' getMolarMass(c("C","H"),c(1,4))
 #' @seealso [getAtomicWeights()]
 #' @references
 #' (1) Possolo, A.,  van der Veen, A.,   Meija, J.,  Hibbert, D.B., Interpreting and propagating the uncertainty of the standard atomic weights,  Pure Appl. Chem. 2018; 90(2): 395–424.\url{https://doi.org/10.1515/pac-2016-0402}
